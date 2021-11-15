@@ -88,11 +88,11 @@ nav button {
 				0 0 5px rgba(0, 0, 0, 0.05)
 }
 .s-box .search-icon {
-	width: 50px;
+	width: 40px;
 	opacity: .4;
 	position: absolute;
 	top: 13px;
-	left: 0px;
+	left: 12px;
 }
 .s-box .vs-icon {
 	width: 14px;
