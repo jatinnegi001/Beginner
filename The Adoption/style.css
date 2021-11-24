@@ -1,0 +1,138 @@
+header {
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-between;
+  padding: 0px 20px 0px 0px;
+  background-color: #eed7ce;
+  margin-left: 1px;
+  margin-right: 1px;
+  height: 150px;
+}
+
+.heading {
+  font-size: 60px;
+}
+
+.logo-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 165px;
+}
+
+.contact-us {
+  border: none;
+  background-color: #334756;
+  color: white;
+  width: 100px;
+  height: auto;
+}
+
+/* drop down */
+.navbar {
+  overflow: hidden;
+  border-radius: 16px;
+  background-color: #105652;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 14px;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+}
+
+.dropdown .dropbtn {
+  font-size: 14px;
+  border: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #105652;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #b91646;
+}
+
+.dropdown-content {
+  overflow: hidden;
+  display: none;
+  position: absolute;
+  background-color: white;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #b91646;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* dropdown */
+body {
+  /* background-color: #eed7ce; */
+  background-image: url("./images/background\ 2.jpg");
+}
+
+main {
+  /* background-color: #eed7ce; */
+  height: 70vh;
+  width: 100%;
+}
+
+.main-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.1;
+  background-color: #105652;
+  width: 60%;
+  height: 65vh;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 17%;
+  transition: 1s ease-in-out .5s;
+}
+
+.main-box:hover {
+  opacity: 1;
+}
+
+.description {
+  color: white;
+  margin-left: 20px;
+  font-size: larger;
+}
+
+.DP {
+  margin-left: 5px;
+}
+
+.myPhoto {
+  border-radius: 50%;
+  width: 350px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: #105652;
+  height: 40px;
+}
