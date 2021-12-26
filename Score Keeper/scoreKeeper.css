@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+html {
+  font-family: 'Oxygen', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.heading{
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(233, 227, 227);
+  border-radius: 0.5em;
+  box-shadow: 0.5em 0.5em 0.9em -0.6em;
+}
+
+.photo {
+  width: 100%;
+}
+
+.scores {
+  padding: 0 0.5em;
+}
+
+.sheading {
+  margin: 0 0.5em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.082);
+  /* box-shadow: 1px; */
+}
+
+.upto {
+  margin: 0 0.5em;
+}
+
+.selectUpto {
+  height: 2em;
+  border-radius: 2em;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 0.4em;
+  font-size: larger;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+.buttons {
+  display: flex;
+}
+
+#bone {
+  background-color: #1976d2;
+  transition: 0.5s;
+}
+#bone:hover {
+  background-color: #42a5f5;
+}
+
+#btwo {
+  background-color: #40916c;
+  transition: 0.5s;
+}
+#btwo:hover {
+  background-color: #74c69d;
+}
+
+#brst {
+  background-color: #ef233c;
+  transition: 0.5s;
+}
+#brst:hover {
+  background-color: #f25f5c;
+}
+
+
+
+
+
+
+
+
